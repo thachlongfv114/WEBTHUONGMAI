@@ -1,10 +1,10 @@
 ﻿<%@ Page Title="MR MỠ" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="BookList.aspx.cs" Inherits="BooksShopOnline.BookList" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
             <section>
-         <div>
+         <div class="tranghchu">
          <hgroup>
          
-             <h2>MR MỠ SPORT</h2>         
+             <h2>MENU</h2>         
          </hgroup>
          <asp:ListView ID="bookList" runat="server" DataKeyNames="BookID"
         GroupItemCount="4"
@@ -30,8 +30,7 @@
          <tr>
          <td>
          <a href="BookDetails.aspx?bookID=<%#:Item.BookID%>">
-         <img src ="/Images/<%#:Item.ImagePath%>"
-         width="260" height="350" style="border:solid" /></a>
+         <img src ="/Images/<%#:Item.ImagePath%>"  width="280" height="350" style="border:solid" /></a>
          </td>
          </tr>
          <tr>
@@ -49,7 +48,7 @@
          <br />
             <a href="AddToCart.aspx?bookID=<%#:Item.BookID%>">
             <span>
-            <b>Add Shirt<b>
+            <b>Thêm<b>
             </span>
             </a>
          </td>

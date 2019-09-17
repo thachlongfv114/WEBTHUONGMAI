@@ -1,6 +1,12 @@
 ﻿<%@ Page Title="Welcome" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="BooksShopOnline._Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+    <div class="trangchu">
+    <div class="trangchu1">
+        <a class="top1">MIỄN PHÍ VẬN CHUYỂN TOÀN QUỐC</a>
+        <a class="top2">THANH TOÁN TẠI NHÀ</a>
+        <a class="top3">BẢO HÀNH 6 THÁNG</a>
+    </div>
     <div class="lead1">
         <h1 class="lead">ÔNG MỠ SPORT</h1>
      <h2 class="lead">UY TÍN - CHẤT LƯỢNG - GIÁ RẺ HẠT DẺ</h2>
@@ -25,5 +31,5 @@
     <div class="vidu">
         
     </div>
-
+    </div>
 </asp:Content>

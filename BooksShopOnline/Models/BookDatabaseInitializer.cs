@@ -21,22 +21,22 @@ namespace BooksShopOnline.Models
                 new Category
                 {
                     CategoryID = 1,
-                    CategoryName = "Áo Tuyển Quốc Gia"
+                    CategoryName = "TUYỂN QUỐC GIA"
                 },
                 new Category
                 {
                     CategoryID = 2,
-                    CategoryName = "Áo Câu Lạc Bộ"
+                    CategoryName = "CÂU LẠC BỘ"
                 },
                 new Category
                 {
                     CategoryID = 3,
-                    CategoryName = "Áo Không LOGO"
+                    CategoryName = "SET KHÔNG LOGO"
                 },
                 new Category
                 {
                     CategoryID = 4,
-                    CategoryName = "Giày Thể Thao"
+                    CategoryName = "GIÀY THỂ THAO"
                 }
                 
             };
@@ -48,8 +48,8 @@ namespace BooksShopOnline.Models
                 new Book
                 {
                     BookID = 1,
-                    BookName = "Áo bóng đá Việt Nam đỏ Asian cup 2019",
-                    Description = "Hàng body fit, tay ngắn",
+                    BookName = "Áo đội tuyển VIỆT NAM",
+                    Description = "Mẫu quần áo bóng đá đội tuyển Việt Nam sân nhà , đây là mẫu quần áo bóng đá sân mùa giải mới của đội tuyển:",
                     ImagePath ="vietnam2.jpg",
                     UnitPrice =120000,
                     CategoryID = 1
@@ -58,8 +58,8 @@ namespace BooksShopOnline.Models
                 new Book
                 {
                     BookID = 11,
-                    BookName = "Áo đội tuyển Brazil",
-                    Description = "Nơi sản sinh ra nhiều thiên tài bóng đá, nhảy múa với trái bóng với điệu samba, và bạn cũng vậy, mua đi mua đi",
+                    BookName = "Áo đội tuyển BRAZIL",
+                    Description = "Mẫu quần áo bóng đá đội tuyển Brazil sân nhà , đây là mẫu quần áo bóng đá sân mùa giải mới của đội tuyển:",
                     ImagePath ="brazill.jpg",
                     UnitPrice =120000,
                     CategoryID = 1
@@ -67,8 +67,8 @@ namespace BooksShopOnline.Models
                 new Book
                 {
                     BookID = 12,
-                    BookName = "Áo đội tuyển Ý",
-                    Description = "Là đội tuyển nhiều truyền thống với những ngôi sao hàng đầu",
+                    BookName = "Áo đội tuyển ILALIA",
+                    Description = "Mẫu quần áo bóng đá đội tuyển Ý sân nhà , đây là mẫu quần áo bóng đá sân mùa giải mới của đội tuyển:",
                     ImagePath ="y.png",
                     UnitPrice =120000,
                     CategoryID = 1
@@ -77,7 +77,7 @@ namespace BooksShopOnline.Models
                 {
                     BookID = 13,
                     BookName = "Áo đội tuyển Đức",
-                    Description = "Nhà vô địch World Cup 2014, cổ xe tăng đích thực, ",
+                    Description = "Mẫu quần áo bóng đá đội tuyển Đức sân nhà , đây là mẫu quần áo bóng đá sân mùa giải mới của đội tuyển:",
                     ImagePath ="gemany.png",
                     UnitPrice =120000,
                     CategoryID = 1
@@ -87,17 +87,17 @@ namespace BooksShopOnline.Models
                 new Book
                 {
                     BookID = 3,
-                    BookName = "CLB BARCA",
-                    Description = " Áo sân nhà, chất liệu siêu tốt, body đẹp dáng",
-                    ImagePath ="bacarlona.jpg",
+                    BookName = "CLB BARCALONA",
+                    Description = " Mẫu quần áo bóng đá CLB Bacarlona sân khách , đây là mẫu quần áo bóng đá sân mùa giải mới của câu lạc bộ:",
+                    ImagePath ="barcalona.jpg",
                     UnitPrice = 150000,
                     CategoryID = 2
                 },
                 new Book
                 {
                     BookID = 31,
-                    BookName = "CLB Manchester City",
-                    Description = "Áo sân nhà, chất liệu siêu tốt, body đẹp dáng",
+                    BookName = "CLB JUVENTUS",
+                    Description = "Mẫu quần áo bóng đá CLB Juventus sân nhà , đây là mẫu quần áo bóng đá sân mùa giải mới của câu lạc bộ:",
                     ImagePath ="juve.jpg",
                     UnitPrice = 150000,
                     CategoryID = 2
@@ -106,46 +106,82 @@ namespace BooksShopOnline.Models
                  new Book
                 {
                     BookID = 32,
-                    BookName = "CLB Manchester United",
-                    Description = "Áo sân nhà, chất liệu siêu tốt, body đẹp dáng",
+                    BookName = "CLB Chelsea",
+                    Description = "Mẫu quần áo bóng đá CLB Chelsea sân khách , đây là mẫu quần áo bóng đá sân mùa giải mới của câu lạc bộ:",
                     ImagePath ="chelsea.jpg",
+                    UnitPrice = 150000,
+                    CategoryID = 2
+                },
+                 new Book
+                {
+                    BookID = 33,
+                    BookName = "CLB AC Milan",
+                    Description = "Áo sân nhà, chất liệu siêu tốt, body đẹp dáng",
+                    ImagePath ="acmilan.jpg",
                     UnitPrice = 150000,
                     CategoryID = 2
                 },
                 new Book
                 {
                     BookID = 4,
-                    BookName = "Áo Ko Logo T90-Victory đỏ",
-                    Description = "Vải thun, tay ngắn, body.",
-                    ImagePath ="ao2.jpg",
-                    UnitPrice = 250000,
+                    BookName = "QUẦN ÁO BÓNG ĐÁ Z17 MÀU ĐỎ 2017",
+                    Description = "Thêm một mẫu Z17 cập bến TTV để bạn lựa chọn, có 5 màu để bạn lựa chọn.",
+                    ImagePath ="ao6.jpg",
+                    UnitPrice = 150000,
                     CategoryID = 3
                 },
                 new Book
                 {
                     BookID = 4,
-                    BookName = "Áo Ko Logo T90-Victory trắng",
-                    Description = "Vải thun, tay ngắn, body.",
-                    ImagePath ="ao3.png",
-                    UnitPrice = 250000,
+                    BookName = "QUẦN ÁO ĐÁ BANH Z17 MÀU TÌM MỚI NHẤT 2017",
+                    Description = "Thêm một mẫu Z17 cập bến TTV để bạn lựa chọn, có 5 màu để bạn lựa chọn.",
+                    ImagePath ="ao7.jpg",
+                    UnitPrice = 150000,
+                    CategoryID = 3
+                },
+                 new Book
+                {
+                    BookID = 41,
+                    BookName = "QUẦN ÁO ĐÁ BÓNG SAKKA 012 MÀU VÀNG XANH 2",
+                    Description = "Mẫu áo bóng đá mới nhất tại Thể Thao VIP vào cuối tháng 08. Thiết kế ấn tượng và ko đụng hàng.",
+                    ImagePath ="ao8.jpg",
+                    UnitPrice = 150000,
+                    CategoryID = 3
+                },
+                  new Book
+                {
+                    BookID = 43,
+                    BookName = "Quần áo đá bóng F50 caro mới màu xanh biển",
+                    Description = "Mẫu áo bóng đá mới nhất tại Thể Thao VIP vào cuối tháng 08. Thiết kế ấn tượng và ko đụng hàng.",
+                    ImagePath ="ao9.jpg",
+                    UnitPrice = 150000,
                     CategoryID = 3
                 },
 
                 new Book
                 {
                     BookID = 5,
-                    BookName = "Giầy Bóng Đá Predator cao cổ xám",
+                    BookName = "Giày bóng đá Mizuno MRL CLUB AS Xanh/Than – P1GD191650",
                     Description = "Giày nhẹ, đủ mọi size cho các bạn yêu cầu.",
-                    ImagePath ="giay1.jpg",
+                    ImagePath ="giay3.jpg",
                     UnitPrice = 300000,
                     CategoryID = 4
                 },
                 new Book
                 {
                     BookID = 5,
-                    BookName = "Giầy Bóng Đá Predator cao cổ hồng",
+                    BookName = "Giày đá bóng Mizuno Monar Neo Select AS-Đỏ/bạc – P1GD192652",
                     Description = "Giày nhẹ, đủ mọi size cho các bạn yêu cầu.",
-                    ImagePath ="giay2.jpg",
+                    ImagePath ="giay4.jpg",
+                    UnitPrice = 300000,
+                    CategoryID = 4
+                },
+                new Book
+                {
+                    BookID = 5,
+                    BookName = "Mizuno Monar Neo Select AS trắng đen P1GD192509",
+                    Description = "Giày nhẹ, đủ mọi size cho các bạn yêu cầu.",
+                    ImagePath ="giay5.jpg",
                     UnitPrice = 300000,
                     CategoryID = 4
                 },
