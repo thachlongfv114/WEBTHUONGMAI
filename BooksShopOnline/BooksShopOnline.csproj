@@ -141,6 +141,7 @@
     <Content Include="Images\ao7.jpg" />
     <Content Include="Images\ao8.jpg" />
     <Content Include="Images\ao9.jpg" />
+    <Content Include="Images\argen.jpg" />
     <Content Include="Images\argentina.jpg" />
     <Content Include="Images\barcalona.jpg" />
     <Content Include="Images\brazill.jpg" />
@@ -150,11 +151,14 @@
     <Content Include="Images\giay3.jpg" />
     <Content Include="Images\giay4.jpg" />
     <Content Include="Images\giay5.jpg" />
+    <Content Include="Images\hl.jpg" />
     <Content Include="Images\juve.jpg" />
     <Content Include="Images\logomosport.jpg" />
+    <Content Include="Images\tbn.png" />
     <Content Include="Images\vietnam.jpg" />
     <Content Include="Images\vietnam2.jpg" />
     <Content Include="Images\y.png" />
+    <Content Include="ShoppingCart.aspx" />
     <Content Include="WebForm1.aspx" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Images\ao1.jpg" />
@@ -207,7 +211,6 @@
     <Content Include="Scripts\WebForms\WebForms.js" />
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
-    <Content Include="ShoppingCart.aspx" />
     <Content Include="Site.Master" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />

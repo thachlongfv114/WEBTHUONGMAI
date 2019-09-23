@@ -2,16 +2,18 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
   <div class="trangchu">
+      <address>
     <h3>Liên hệ với tôi.</h3>
-    <address>
-       33 Phòng Không, Phước Long, Nha Trang, Khánh Hòa<br />
-       <br />
-        <abbr title="Phone">SDT</abbr>
-       0356362363
-    </address>
-
-    <address>
-        <strong>Liên hệ:</strong>   <a href="https://www.facebook.com/thachlongfv">FACEBOOK</a><br />
+    
+   
+       <p><strong>Địa chỉ:</strong> 33 Phòng Không, Phước Long, Nha Trang, Khánh Hòa</p>
+      
+       
+ 
+        <p> <strong>SĐT:</strong> <a> 0356365636 </a></p>
+     
+   
+        <p><strong>Mạng Xã Hội</strong>   <a href="https://www.facebook.com/thachlongfv">FACEBOOK</a></p>
       
     </address>
       </div>

@@ -42,7 +42,7 @@
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 h4,#tp{
-    color:red;
+    color:white;
 }
 
 *,
@@ -85,8 +85,7 @@ body {
     background-position: center;
     background-attachment: fixed;
     height: 100%;
-   
-    background-image: url(https://images.pexels.com/photos/1594932/pexels-photo-1594932.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-image: url(https://www.freegreatpicture.com/files/147/8964-background-color.jpg);
 }
 
 [tabindex="-1"]:focus {
@@ -100,8 +99,8 @@ img:hover{
 }
 a:hover{
 
-    color:black;
-    background:white;
+    color:red;
+    background:black;
 }
 
 hr {
@@ -154,7 +153,7 @@ p{
   
 }
 .trangchu {
-    background-color:white;
+    background-color:#fb475d;
     
    
     
@@ -338,8 +337,8 @@ svg {
 }
 
 table {
-    background:white;
-  border-collapse: collapse;
+    background: rgba(231, 47, 47, 0.5);
+    border-collapse: collapse;
 }
 
 caption {
@@ -392,12 +391,29 @@ select {
 select {
   word-wrap: normal;
 }
-
+h1:hover{
+    color:red;
+    
+}
 button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
   -webkit-appearance: button;
+}
+td{
+    color:black;
+}
+b{
+    font-size:larger;
+    color:black;
+}
+span {
+    font-size: larger;
+    color: black;
+}
+span:hover{
+    background-color:white;
 }
 
 button:not(:disabled),
@@ -535,7 +551,7 @@ h6, .h6 {
   
 }
 a{
-    color:red;
+    color:white;
 }
 h1.lead {
     text-align: center;
