@@ -8,7 +8,7 @@
         <a class="top3">BẢO HÀNH 6 THÁNG</a>
     </div>
     <div class="lead1">
-        <h1 class="lead">ÔNG MỠ SPORT</h1>
+        <h1 class="lead">MỠ SPORT</h1>
      <h2 class="lead">UY TÍN - CHẤT LƯỢNG - GIÁ RẺ HẠT DẺ</h2>
          <p class="gt">
          Bạn là một fan bóng đá, bạn muốn sở hữu những chiếc áo của thần tượng mình, hãy đến với Ông Mỡ Sport, hay được gọi là MR MO SPORT. Shopthể thao chất lượng hàng đầu VIệt Nam, có đủ tất cả loại áo theo yêu cầu của quý khách, loại vải tốt, hàng được nhập khẩu từ nước ngoài, uy tín, chất lượng là tiêu chí của shop.
@@ -19,7 +19,7 @@
      <div class="trangchu2">
          <div class="trang1">
             <h1>SPORT SHOP</h1> 
-<p>Sporter là nơi bạn có thể đặt áo bóng đá với giá tốt nhất tại TPHCM mà bạn không thể bỏ qua…</p>
+<p>Mỡ Sport là nơi bạn có thể đặt áo bóng đá với giá tốt nhất tại TPHCM mà bạn không thể bỏ qua…</p>
          </div>
          <div class="trang2">
             <h1>SPORT SHOP</h1> 

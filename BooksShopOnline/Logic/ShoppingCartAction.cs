@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using BooksShopOnline.Models;
+
 namespace BooksShopOnline.Logic
 {
     public class ShoppingCartActions : IDisposable
@@ -91,8 +92,6 @@ namespace BooksShopOnline.Logic
             {
                 decimal cartTotal = 0;
                 cartTotal = usersShoppingCart.GetTotal();
-                
-                
             }
         }
     }

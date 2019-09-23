@@ -4,7 +4,7 @@
          <div class="tranghchu">
          <hgroup>
          
-             <h2>MENU</h2>         
+             <h2></h2>         
          </hgroup>
          <asp:ListView ID="bookList" runat="server" DataKeyNames="BookID"
         GroupItemCount="4"
@@ -48,7 +48,7 @@
          <br />
             <a href="AddToCart.aspx?bookID=<%#:Item.BookID%>">
             <span>
-            <b>Thêm<b>
+            <b>ADD TO CART<b>
             </span>
             </a>
          </td>
