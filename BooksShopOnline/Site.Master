@@ -47,6 +47,7 @@
                         <li><a id="t2" runat="server" href="~/About">CHI NHÁNH</a></li>
                         <li><a id="t3" runat="server" href="~/Contact">LIÊN HỆ</a></li>
                         <li><a id="t4" runat="server" href="~/BookList">ĐẶT ÁO</a></li>
+                        <li><a runat="server" href="~/ShoppingCart" ID="t5"> SHOP</a></li>
                     </ul>
 
                 </div>

@@ -76,14 +76,40 @@ namespace BooksShopOnline.Models
                 new Book
                 {
                     BookID = 13,
-                    BookName = "Áo đội tuyển Đức",
+                    BookName = "Áo đội tuyển ĐỨC",
                     Description = "Mẫu quần áo bóng đá đội tuyển Đức sân nhà , đây là mẫu quần áo bóng đá sân mùa giải mới của đội tuyển:",
                     ImagePath ="gemany.png",
                     UnitPrice =120000,
                     CategoryID = 1
                     },
+                 new Book
+                {
+                    BookID = 14,
+                    BookName = "Áo đội tuyển HÀ LAN",
+                    Description = "Mẫu quần áo bóng đá đội tuyển HÀ LAN sân nhà , đây là mẫu quần áo bóng đá sân mùa giải mới của đội tuyển:",
+                    ImagePath ="hl.jpg",
+                    UnitPrice =120000,
+                    CategoryID = 1
+                    },
+                 new Book
+                {
+                    BookID = 15,
+                    BookName = "Áo đội tuyển ARGENTINA",
+                    Description = "Mẫu quần áo bóng đá đội tuyển HÀ LAN sân nhà , đây là mẫu quần áo bóng đá sân mùa giải mới của đội tuyển:",
+                    ImagePath ="argen.jpg",
+                    UnitPrice =120000,
+                    CategoryID = 1
+                    },
+                 new Book
+                {
+                    BookID = 16,
+                    BookName = "Áo đội tuyển TÂY BAN NHA",
+                    Description = "Mẫu quần áo bóng đá đội tuyển TÂY BAN NHA sân nhà , đây là mẫu quần áo bóng đá sân mùa giải mới của đội tuyển:",
+                    ImagePath ="tbn.png",
+                    UnitPrice =120000,
+                    CategoryID = 1
+                    },
 
-                
                 new Book
                 {
                     BookID = 3,
