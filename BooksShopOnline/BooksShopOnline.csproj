@@ -136,12 +136,20 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Images\acmilan.jpg" />
+    <Content Include="Images\anhtop.jpg" />
+    <Content Include="Images\ao6.jpg" />
+    <Content Include="Images\ao7.jpg" />
+    <Content Include="Images\ao8.jpg" />
+    <Content Include="Images\ao9.jpg" />
     <Content Include="Images\argentina.jpg" />
     <Content Include="Images\barcalona.jpg" />
     <Content Include="Images\brazill.jpg" />
     <Content Include="Images\chelsea.jpg" />
     <Content Include="Images\duc.png" />
     <Content Include="Images\gemany.png" />
+    <Content Include="Images\giay3.jpg" />
+    <Content Include="Images\giay4.jpg" />
+    <Content Include="Images\giay5.jpg" />
     <Content Include="Images\juve.jpg" />
     <Content Include="Images\logomosport.jpg" />
     <Content Include="Images\vietnam.jpg" />
@@ -203,7 +211,9 @@
     <Content Include="Site.Master" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
-    <Content Include="Bundle.config" />
+    <Content Include="Bundle.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
