@@ -21,5 +21,6 @@ Trang web gồm có 3 mục lớn<br/>
 <img src="https://raw.githubusercontent.com/thachlongfv114/WEBTHUONGMAI/master/anh/tt2.PNG"><br/>
  Kéo xuống cuối trang, có địa chỉ liên kết của tôi nếu bạn muốn liên hệ để biết thêm thông tin <br/>
   <img src="https://raw.githubusercontent.com/thachlongfv114/WEBTHUONGMAI/master/anh/lienhe.PNG"><br/>
+ Đó là tất cả về trang web shop bán hàng thể thao.
 </a>
 
