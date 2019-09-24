@@ -8,7 +8,7 @@ Chi Nhánh<br/>
 Đặt Áo<br/>
 <img src="https://raw.githubusercontent.com/thachlongfv114/WEBTHUONGMAI/thach1/anh/datao.PNG"><br/>
 Áo Câu Lạc Bộ<br/>
-<img src="https://raw.githubusercontent.com/thachlongfv114/WEBTHUONGMAI/master/anh/clb.PNG"><br/>
+<img src="https://raw.githubusercontent.com/thachlongfv114/WEBTHUONGMAI/master/clb.PNG"><br/>
 Áo Thể Thao không logo<br/>
 <img src="https://raw.githubusercontent.com/thachlongfv114/WEBTHUONGMAI/master/anh/kologo.PNG"><br/>
 Giày thể thao
