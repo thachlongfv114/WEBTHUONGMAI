@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AddToCart.aspx.cs" Inherits="BooksShopOnline.AddToCart" %>
+﻿<%--<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AddToCart.aspx.cs" Inherits="BooksShopOnline.AddToCart" %>
 
 <!DOCTYPE html>
 
@@ -12,4 +12,4 @@
         </div>
     </form>
 </body>
-</html>
+</html>--%>

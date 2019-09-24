@@ -111,7 +111,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="About.aspx" />
+    <Content Include="chinhanh.aspx" />
     <Content Include="AddToCart.aspx" />
     <Content Include="BookDetails.aspx" />
     <Content Include="BookList.aspx" />
@@ -228,12 +228,12 @@
       <DependentUpon>AddToCart.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
-    <Compile Include="About.aspx.cs">
-      <DependentUpon>About.aspx</DependentUpon>
+    <Compile Include="chinhanh.aspx.cs">
+      <DependentUpon>chinhanh.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="About.aspx.designer.cs">
-      <DependentUpon>About.aspx</DependentUpon>
+    <Compile Include="chinhanh.aspx.designer.cs">
+      <DependentUpon>chinhanh.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="BookDetails.aspx.cs">

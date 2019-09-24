@@ -56,6 +56,7 @@ div#TitleContent{
    
 }
 
+
 html {
     font-family: sans-serif;
     line-height: 1.15;
@@ -196,6 +197,18 @@ p{
 }
 footer{
    text-align:center;
+   height:150px;
+   background-color:#f34b6f;
+}
+.lienhe1{
+    width:50%;
+    height:100px;
+    float:left;
+}
+lienhe{
+    margin-right:10px;
+    width:60%;
+    float:right;
 }
 
 .lead1 {

@@ -48,7 +48,7 @@
          <br />
             <a href="AddToCart.aspx?bookID=<%#:Item.BookID%>">
             <span>
-            <b>ADD TO CART<b>
+            <b>Thêm giỏ hàng<b>
             </span>
             </a>
          </td>
