@@ -44,10 +44,9 @@
                 <div class="acce">
                     <ul class="acc">
                         <li><a id="t1" runat="server" href="~/">TRANG CHỦ</a></li>
-                        <li><a id="t2" runat="server" href="~/About">CHI NHÁNH</a></li>
-                        <li><a id="t3" runat="server" href="~/Contact">LIÊN HỆ</a></li>
+                        <li><a id="t2" runat="server" href="~/chinhanh">CHI NHÁNH</a></li>                     
                         <li><a id="t4" runat="server" href="~/BookList">ĐẶT ÁO</a></li>
-                        <li><a runat="server" href="~/ShoppingCart" ID="t5"> SHOP</a></li>
+                      
                     </ul>
 
                 </div>
@@ -83,7 +82,18 @@
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
+                <div class="footer">
+                <div class="lienhe1">
                 <p>&copy; Mỡ Sport xin kính chào quí khách !!!</p>
+                 </div>
+                    <p> Để biết thêm chi tiết xin liên hệ:</p>
+                    <div class="lienhe">
+                       <li id="foter"> <a href="https://www.facebook.com/thachlongfv">FACEBOOK</a></li>
+                       <li id="foter"> <a href="https://github.com/thachlongfv114">GITHUB</a></li>
+                       <li id="foter"><a href="https://thachlongfv114@gmail.com">EMAIL</a></li>
+                            
+                    </div>
+                </div>
             </footer>
         </div>
 

@@ -31,15 +31,6 @@ namespace BooksShopOnline {
         protected global::System.Web.UI.HtmlControls.HtmlAnchor t2;
         
         /// <summary>
-        /// t3 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlAnchor t3;
-        
-        /// <summary>
         /// t4 control.
         /// </summary>
         /// <remarks>
@@ -47,15 +38,6 @@ namespace BooksShopOnline {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor t4;
-        
-        /// <summary>
-        /// t5 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlAnchor t5;
         
         /// <summary>
         /// categoryList control.

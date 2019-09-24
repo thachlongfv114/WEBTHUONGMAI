@@ -15,15 +15,15 @@ namespace BooksShopOnline
         {
 
         }
-        protected void Page_PreRender(object sender, EventArgs e)
-        {
-            using (ShoppingCartActions usersShoppingCart = new ShoppingCartActions())
-            {
-                string cartStr = string.Format("Cart ({0})",
-                usersShoppingCart.GetCount());
-                t5.InnerText = cartStr;
-            }
-        }
+        //protected void Page_PreRender(object sender, EventArgs e)
+        //{
+        //    using (ShoppingCartActions usersShoppingCart = new ShoppingCartActions())
+        //    {
+        //        string cartStr = string.Format("Cart ({0})",
+        //        usersShoppingCart.GetCount());
+        //        t5.InnerText = cartStr;
+        //    }
+        //}
         public IQueryable<Category> GetCategories()
         {
             var _db = new BooksShopOnline.Models.BookContext();
