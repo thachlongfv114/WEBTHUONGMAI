@@ -1,5 +1,10 @@
 <h1> WEB SHOP MỠ SPORT</h1><br/>
 <a>Web bán đồ thể thao, giày thể thao..<br/>
+ <a>Cơ sở dữ liệu </a>
+ <img src ="https://raw.githubusercontent.com/thachlongfv114/WEBTHUONGMAI/master/dshang.PNG">
+ <img src ="https://raw.githubusercontent.com/thachlongfv114/WEBTHUONGMAI/master/dsloai.PNG">
+  <img src ="https://raw.githubusercontent.com/thachlongfv114/WEBTHUONGMAI/master/hang.PNG">
+  <img src ="https://raw.githubusercontent.com/thachlongfv114/WEBTHUONGMAI/master/loai.PNG">
 Trang web gồm có 3 mục lớn<br/>
  <strong>Trang chủ </strong><br/>
  Giới thiệu thông tin shop<br/>
