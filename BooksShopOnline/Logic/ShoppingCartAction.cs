@@ -8,8 +8,8 @@ namespace BooksShopOnline.Logic
     public class ShoppingCartActions : IDisposable
     {
         public string ShoppingCartId { get; set; }
-        private BookContext _db = new BookContext();
-        public const string CartSessionKey = "CartId";
+        private SportContext _db = new SportContext();
+        public const string CartSessionKey = "Id";
         public void AddToCart(int id)
         {
             // Retrieve the product from the database.
@@ -23,10 +23,10 @@ namespace BooksShopOnline.Logic
                 cartItem = new CartItem
                 {
                     ItemId = Guid.NewGuid().ToString(),
-                    BookId = id,
+                    SportId = id,
                     CartId = ShoppingCartId,
-                    Book = _db.Books.SingleOrDefault(
-                p => p.BookID == id),
+                    Sport = _db.Sports.SingleOrDefault(
+                p => p.SportID == id),
                     Quantity = 1,
                     DateCreated = DateTime.Now
                 };
@@ -96,7 +96,7 @@ namespace BooksShopOnline.Logic
         public void UpdateShoppingCartDatabase(String cartId, ShoppingCartUpdates[]
         CartItemUpdates)
         {
-            using (var db = new BooksShopOnline.Models.BookContext())
+            using (var db = new BooksShopOnline.Models.SportContext())
             {
                 try
                 {
@@ -107,16 +107,16 @@ namespace BooksShopOnline.Logic
                         // Lặp qua các hàng trong giỏ hàng
                         for (int i = 0; i < CartItemCount; i++)
                         {
-                            if (cartItem.Book.BookID == CartItemUpdates[i].BookId)
+                            if (cartItem.Sport.SportID == CartItemUpdates[i].SportId)
                             {
                                 if (CartItemUpdates[i].PurchaseQuantity < 1 ||
                                 CartItemUpdates[i].RemoveItem == true)
                                 {
-                                    RemoveItem(cartId, cartItem.BookId);
+                                    RemoveItem(cartId, cartItem.SportId);
                                 }
                                 else
                                 {
-                                    UpdateItem(cartId, cartItem.BookId,
+                                    UpdateItem(cartId, cartItem.SportId,
                                     CartItemUpdates[i].PurchaseQuantity);
                                 }
                             }
@@ -132,7 +132,7 @@ namespace BooksShopOnline.Logic
         }
         public void RemoveItem(string removeCartID, int removeBookID)
         {
-            using (var _db = new BooksShopOnline.Models.BookContext())
+            using (var _db = new BooksShopOnline.Models.SportContext())
             {
                 try
                 {
@@ -149,15 +149,14 @@ namespace BooksShopOnline.Logic
                 }
                 catch (Exception exp)
                 {
-                    throw new Exception("ERROR: Unable to Remove Cart Item - " +
-                    exp.Message.ToString(), exp);
+                    throw new Exception("ERROR: Unable to Remove Cart Item - " + exp.Message.ToString(), exp);
                 }
             }
         }
         public void UpdateItem(string updateCartID, int updateBookID, int
         quantity)
         {
-            using (var _db = new BooksShopOnline.Models.BookContext())
+            using (var _db = new BooksShopOnline.Models.SportContext())
             {
                 try
                 {
@@ -203,7 +202,7 @@ namespace BooksShopOnline.Logic
         }
         public struct ShoppingCartUpdates
         {
-            public int BookId;
+            public int SportId;
             public int PurchaseQuantity;
             public bool RemoveItem;
         }

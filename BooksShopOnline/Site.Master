@@ -43,9 +43,9 @@
                
                 <div class="acce">
                     <ul class="acc">
-                        <li><a id="t1" runat="server" href="~/">TRANG CHỦ</a></li>
+                        <li><a id="t1" runat="server" href="~/TrangChu">TRANG CHỦ</a></li>
                         <li><a id="t2" runat="server" href="~/chinhanh">CHI NHÁNH</a></li>                     
-                        <li><a id="t4" runat="server" href="~/BookList">ĐẶT ÁO</a></li>
+                        <li><a id="t4" runat="server" href="~/DanhSach">ĐẶT ÁO</a></li>
                       
                     </ul>
 
@@ -58,7 +58,7 @@
         </div>
                
             </div>
-        </div
+       
             </container>
                 <!--******thêm logo*****-->
         
@@ -88,9 +88,9 @@
                  </div>
                     <p> Để biết thêm chi tiết xin liên hệ:</p>
                     <div class="lienhe">
-                       <li id="foter"> <a href="https://www.facebook.com/thachlongfv">FACEBOOK</a></li>
-                       <li id="foter"> <a href="https://github.com/thachlongfv114">GITHUB</a></li>
-                       <li id="foter"><a href="https://thachlongfv114@gmail.com">EMAIL</a></li>
+                       <li > <a href="https://www.facebook.com/thachlongfv">FACEBOOK</a></li>
+                       <li > <a href="https://github.com/thachlongfv114">GITHUB</a></li>
+                       <li ><a href="https://thachlongfv114@gmail.com">EMAIL</a></li>
                             
                     </div>
                 </div>

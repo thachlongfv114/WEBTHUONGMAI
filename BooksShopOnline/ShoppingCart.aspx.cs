@@ -29,7 +29,7 @@ namespace BooksShopOnline
                 {
                     LabelTotalText.Text = "";
                     lblTotal.Text = "";
-                    ShoppingCartTitle.InnerText = "Shopping Cart is Empty";
+                    ShoppingCartTitle.InnerText = " Sport is Empty";
                     UpdateBtn.Visible = false;
                 }
             }
@@ -50,7 +50,7 @@ namespace BooksShopOnline
                 {
                     IOrderedDictionary rowValues = new OrderedDictionary();
                     rowValues = GetValues(CartList.Rows[i]);
-                    cartUpdates[i].BookId = Convert.ToInt32(rowValues["BookID"]);
+                    cartUpdates[i].SportId = Convert.ToInt32(rowValues["SportID"]);
                     CheckBox cbRemove = new CheckBox();
                     cbRemove = (CheckBox)CartList.Rows[i].FindControl("Remove");
                     cartUpdates[i].RemoveItem = cbRemove.Checked;

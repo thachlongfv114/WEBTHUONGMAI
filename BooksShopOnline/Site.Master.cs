@@ -26,9 +26,11 @@ namespace BooksShopOnline
         //}
         public IQueryable<Category> GetCategories()
         {
-            var _db = new BooksShopOnline.Models.BookContext();
-            IQueryable<Category> query = _db.Categories;
+            var _db = new BooksShopOnline.Models.SportContext();
+            IQueryable<Category> query = _db.SportCategories;
             return query;
-        }        
+        }
+        
+
     }
 }
