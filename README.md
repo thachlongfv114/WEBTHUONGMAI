@@ -1,9 +1,13 @@
 <h1> WEB SHOP MỠ SPORT</h1><br/>
 <a>Web bán đồ thể thao, giày thể thao..<br/>
- <a>Cơ sở dữ liệu </a>
+ <a>Cơ sở dữ liệu gồm 2 bảng </a>
+ <a>Hàng hóa</a><br/>
  <img src ="https://raw.githubusercontent.com/thachlongfv114/WEBTHUONGMAI/master/dshang.PNG">
+ <a> Loại Hàng</a><br/>
  <img src ="https://raw.githubusercontent.com/thachlongfv114/WEBTHUONGMAI/master/dsloai.PNG">
+ <a> Dữ liệu bảng hàng hóa </a><br/>
   <img src ="https://raw.githubusercontent.com/thachlongfv114/WEBTHUONGMAI/master/hang.PNG">
+  <a>Dữ liệu bảng loại hàng</a><br/>
   <img src ="https://raw.githubusercontent.com/thachlongfv114/WEBTHUONGMAI/master/loai.PNG">
 Trang web gồm có 3 mục lớn<br/>
  <strong>Trang chủ </strong><br/>
