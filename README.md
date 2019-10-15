@@ -1,6 +1,6 @@
 <h1> WEB SHOP MỠ SPORT</h1><br/>
 <a>Web bán đồ thể thao, giày thể thao..<br/>
- <a>Cơ sở dữ liệu gồm 2 bảng </a>
+ <a>Cơ sở dữ liệu gồm 2 bảng </a><br/>
  <a>Hàng hóa</a><br/>
  <img src ="https://raw.githubusercontent.com/thachlongfv114/WEBTHUONGMAI/master/dshang.PNG">
  <a> Loại Hàng</a><br/>
