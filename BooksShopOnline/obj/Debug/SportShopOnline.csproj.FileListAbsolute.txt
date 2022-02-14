@@ -1,4 +1,0 @@
-C:\Users\CNTT\Desktop\WEBTHUONGMAI\BooksShopOnline\obj\Debug\SportShopOnline.csprojAssemblyReference.cache
-C:\Users\CNTT\Desktop\WEBTHUONGMAI\BooksShopOnline\obj\Debug\SportShopOnline.csproj.CoreCompileInputs.cache
-C:\Users\CNTT\Desktop\WEBTHUONGMAI\BooksShopOnline\obj\Debug\BooksShopOnline.dll
-C:\Users\CNTT\Desktop\WEBTHUONGMAI\BooksShopOnline\obj\Debug\BooksShopOnline.pdb
